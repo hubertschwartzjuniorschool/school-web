@@ -43,8 +43,9 @@ document.getElementById('contactForm').addEventListener('submit', (e) => {
     f.get('message')
   ].filter(l => l !== null);
   const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(lines.join('\n'))}`;
-  window.open(url, '_blank', 'noopener');
   e.target.reset();
+  // Same-tab navigation is not blocked as a pop-up, and opens the WhatsApp app on phones
+  window.location.href = url;
 });
 
 /* ---------- Count-up numbers (FIXED: no longer blocked by reduce-motion) ---------- */
