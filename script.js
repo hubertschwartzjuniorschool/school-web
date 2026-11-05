@@ -29,7 +29,7 @@ document.getElementById('applyForm').addEventListener('submit', (e) => {
 });
 
 /* ---------- Contact form -> WhatsApp ---------- */
-const WHATSAPP_NUMBER = '256700123456'; // country code + number, no + or spaces
+const WHATSAPP_NUMBER = '256776049149'; // country code + number, no + or spaces
 
 document.getElementById('contactForm').addEventListener('submit', (e) => {
   e.preventDefault();
