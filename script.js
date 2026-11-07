@@ -24,7 +24,7 @@ window.addEventListener('scroll', () => {
 // Form submission
 document.getElementById('applyForm').addEventListener('submit', (e) => {
   e.preventDefault();
-  alert('Thank you! Your application for Hurbert Schwaz Junior School has been simulated.');
+  alert('Thank you! Your application for Hubert Schwaz Junior School has been simulated.');
   e.target.reset();
 });
 
